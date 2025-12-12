@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Tailwind - Responsive Card Grid</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-blue-500 mb-4">Hello Tailwind CSS! 👋</h1>
+            <p class="text-gray-600 text-lg">Responsive Card Grid Layout</p>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="bg-gray-100 p-4 rounded-lg mb-8 shadow-sm">
+            <h2 class="text-2xl font-semibold text-gray-800 mb-3">Welcome to Tailwind CSS</h2>
+            <p class="text-gray-700 leading-relaxed">
+                This project demonstrates the power of Tailwind CSS utility classes. 
+                Learn how to build responsive layouts with minimal custom CSS using 
+                Flexbox, Grid, and responsive design utilities. Resize your browser 
+                to see the magic! ✨
+            </p>
+        </section>
+
+        <!-- Responsive Card Grid -->
+        <section>
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">Featured Cards</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-500 to-blue-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Responsive Design</h3>
+                        <p class="text-gray-600 mb-4">
+                            Build layouts that adapt seamlessly across all device sizes using Tailwind's responsive utilities.
+                        </p>
+                        <span class="inline-block bg-blue-100 text-blue-800 text-sm px-3 py-1 rounded-full">Layout</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-purple-500 to-purple-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Utility Classes</h3>
+                        <p class="text-gray-600 mb-4">
+                            Style your components quickly with pre-built utility classes for spacing, colors, and typography.
+                        </p>
+                        <span class="inline-block bg-purple-100 text-purple-800 text-sm px-3 py-1 rounded-full">Styling</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-green-500 to-green-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Flexbox & Grid</h3>
+                        <p class="text-gray-600 mb-4">
+                            Master modern CSS layouts with Tailwind's intuitive Flexbox and Grid utilities for complex designs.
+                        </p>
+                        <span class="inline-block bg-green-100 text-green-800 text-sm px-3 py-1 rounded-full">Layout</span>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-red-500 to-red-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Color System</h3>
+                        <p class="text-gray-600 mb-4">
+                            Access a comprehensive color palette with shades from 50 to 900 for consistent design systems.
+                        </p>
+                        <span class="inline-block bg-red-100 text-red-800 text-sm px-3 py-1 rounded-full">Colors</span>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-yellow-500 to-yellow-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Typography</h3>
+                        <p class="text-gray-600 mb-4">
+                            Control font sizes, weights, line heights, and letter spacing with simple utility classes.
+                        </p>
+                        <span class="inline-block bg-yellow-100 text-yellow-800 text-sm px-3 py-1 rounded-full">Text</span>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+                    <div class="bg-gradient-to-r from-indigo-500 to-indigo-600 h-32"></div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-2">Spacing System</h3>
+                        <p class="text-gray-600 mb-4">
+                            Apply consistent padding and margins using Tailwind's intuitive spacing scale from 0 to 96.
+                        </p>
+                        <span class="inline-block bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full">Spacing</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 text-center text-gray-600 border-t border-gray-200 pt-8">
+            <p class="mb-2">Built with ❤️ using Tailwind CSS</p>
+            <p class="text-sm">Responsive • Modern • Fast</p>
+        </footer>
+
+    </div>
+</body>
+</html>
